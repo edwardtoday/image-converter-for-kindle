@@ -13,5 +13,7 @@ The script will look for images in specified directory, do the following process
 Usage
 -----
 ```bash
-python convert2kindless.py path-to-images
+python convert2kindless.py ./sample
 ```
+
+Generates `./sample/ss/sample.jpg`.
