@@ -14,7 +14,7 @@ def ensuredirs(path):
             raise
 
 try:
-    image_dir = '/Users/edwardtoday/Downloads' # sys.argv[1]
+    image_dir = sys.argv[1]
 except:
     print "Please specify a directory"
     exit(1)
